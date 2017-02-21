@@ -1,0 +1,52 @@
+song_bank=$04
+song_base_address=$c000
+song_loop_bank=$04
+song_loop=$c000
+    .bank $04
+    .org $c000
+    .incbin "data/vgm/song0000.bin"
+    .bank $05
+    .org $c000
+    .incbin "data/vgm/song0001.bin"
+    .bank $06
+    .org $c000
+    .incbin "data/vgm/song0002.bin"
+    .bank $07
+    .org $c000
+    .incbin "data/vgm/song0003.bin"
+    .bank $08
+    .org $c000
+    .incbin "data/vgm/song0004.bin"
+    .bank $09
+    .org $c000
+    .incbin "data/vgm/song0005.bin"
+    .bank $0a
+    .org $c000
+    .incbin "data/vgm/song0006.bin"
+    .bank $0b
+    .org $c000
+    .incbin "data/vgm/song0007.bin"
+    .bank $0c
+    .org $c000
+    .incbin "data/vgm/song0008.bin"
+    .bank $0d
+    .org $c000
+    .incbin "data/vgm/song0009.bin"
+    .bank $0e
+    .org $c000
+    .incbin "data/vgm/song000a.bin"
+    .bank $0f
+    .org $c000
+    .incbin "data/vgm/song000b.bin"
+    .bank $10
+    .org $c000
+    .incbin "data/vgm/song000c.bin"
+    .bank $11
+    .org $c000
+    .incbin "data/vgm/song000d.bin"
+    .bank $12
+    .org $c000
+    .incbin "data/vgm/song000e.bin"
+    .bank $13
+    .org $c000
+    .incbin "data/vgm/song000f.bin"
